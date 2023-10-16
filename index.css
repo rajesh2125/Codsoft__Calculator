@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ced0cf;
+  /* background-color: rgb(229, 229, 229); */
+}
+.box {
+  background-color: #35383c;
+  padding: 2vw;
+  border: solid 0.2vw gray;
+  border-radius: 2vw;
+}
+
+.head {
+  margin: 1.5vw 0;
+  font-size: 3vw;
+  /* color: #f3913d; */
+  background-image: url(sea-3652697_1280.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.btn {
+  padding: 2vw;
+  font-size: 1.8vw;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  width: 6vw;
+  height: 6vw;
+  background-color: #d3d3d1;
+  margin: 0.3vw 0.2vw;
+  border: solid 0.1vw gray;
+  border-radius: 0.8vw;
+  cursor: pointer;
+}
+.input {
+  width: 26vw;
+  height: 2.5vw;
+  box-sizing: border-box;
+  border: solid 0.1vw gray;
+  border-radius: 0.6vw;
+  margin-bottom: 0.5vw;
+  font-size: 1.5vw;
+  padding: 1.6vw;
+  color: #d3d3d1;
+  background-color: #55585c;
+}
+#sp-bg {
+  background-color: #f3913d;
+}
